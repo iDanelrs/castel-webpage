@@ -243,6 +243,10 @@ footer .btn:hover {
         padding: 10px 5px; /* Reduce padding en pantallas pequeñas */
     }
 
+    main {
+        margin-top: 10px;
+    }
+
     .logo-titulo img {
         width: 40px;
         height: 40px;
