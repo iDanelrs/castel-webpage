@@ -164,7 +164,32 @@ main {
     line-height: 1.6;
     width: 100%;
 }
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center; /* Centra el texto */
+}
 
+.footer-title h5 {
+    margin: 0;
+    font-size: 16px;
+}
+
+footer .btn {
+    background-color: #007bff;
+    color: #f9f9f9;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+footer .btn:hover {
+    background-color: #0056b3;
+}
 #fixed-button {
     position: fixed;
     bottom: 20px;
@@ -252,36 +277,17 @@ main {
         height: 250px; /* Ajusta la altura en pantallas más pequeñas */
     }
 
-    #fixed-button {
-        bottom: 90px;
+
+    footer {
+        text-align: left;
     }
+
+    .footer-title h5 {
+        margin-left: 40px;
+    }
+
+
 }
 
-footer {
-    background-color: #333;
-    color: #fff;
-    padding: 20px;
-    text-align: center; /* Centra el texto */
-}
-
-.footer-title h5 {
-    margin: 0;
-    font-size: 16px;
-}
-
-footer .btn {
-    background-color: #007bff;
-    color: #f9f9f9;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    font-size: 14px;
-    cursor: pointer;
-    margin-top: 10px;
-}
-
-footer .btn:hover {
-    background-color: #0056b3;
-}
 
 
